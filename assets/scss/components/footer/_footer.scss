@@ -28,7 +28,7 @@
       align-items: center;
       justify-content: center;
       &:hover {
-        background: theme-color(primary);
+        background: theme-color();
         color: #fff;
       }
     }
