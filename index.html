@@ -84,13 +84,26 @@
     		color: rgb(127, 62, 189)!important;
 		}
 
+		#navbarSection{
+			display: flex; 
+			flex-direction: row; 
+			justify-content:space-between; 
+			width: 100%;
+		}
+
 		@media only screen and (max-width: 900px) {
 			#bannerHeading {
 				display: none;
   			}
-			  #zf_div_z8lYkJp3637ONPuCHFgu6h6u8B4T5bPW6qhgqo3rHk4{
+			#zf_div_z8lYkJp3637ONPuCHFgu6h6u8B4T5bPW6qhgqo3rHk4{
 				  width: 100%;
-			  }
+			}
+			#navbarSection>div>a{
+				font-size: 20px;
+			}
+			footer>div{
+				margin: 5px;
+			}
 		}
 	</style>
 
@@ -99,7 +112,7 @@
 		<nav class="ec-nav sticky-top " style="background-color: #3e1c4f; padding: 1rem 0rem;">
 			<div class="container">
 				<div class="navbar p-0 navbar-expand-lg" style="width: 100%;">
-					<div class="navbar-brand" style="display: flex; flex-direction: row;justify-content:space-between;width: 100%">
+					<div class="navbar-brand" id="navbarSection" >
 						<a class="logo-default" href="index.html"><img alt="" src="assets/img/BeSingular White Logo.png"/></a>
 						<div>
 							<a href="mailto:contact@besingular.com" style="color:white"><i class="fa fa-envelope"></i> contact@besingular.com</a>
@@ -963,7 +976,7 @@
             <div class="subfooter" style="display:flex; justify-content:center; flex-direction:column; align-items: center;">
                 <img src="assets/img/BeSingular White Logo.png" alt="" srcset="" style="width: 15%; margin: 1rem;">
                 <!-- <h4>BeSingular India</h4> -->
-                <p style="color: white;">38 KM Stone, Delhi - Jaipur Highway, Khandsa, Behrampur Road, Gurugram, Haryana- 122001</p>
+                <p style="color: white;" >38 KM Stone, Delhi - Jaipur Highway, Khandsa, Behrampur Road, Gurugram, Haryana- 122001</p>
                 <a href="mailto:contact@besingular.com" style="color: white;"><i class="fa fa-envelope"></i> contact@besingular.com</a>
 				<a href="callto:+91-9910524422" style="color: white;"><i class="fa fa-phone"></i> +91-9910 524 422</a>
             </div>
